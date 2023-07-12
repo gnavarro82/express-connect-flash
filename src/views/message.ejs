@@ -1,0 +1,25 @@
+
+<% if (message) { %>
+    <p><%= message %></p>
+
+<% } %>
+
+/*  sale este error
+use flash-connect y ejs en node me sale este error al llamar a mi archivo message.ejs SyntaxError: missing ) after argument list in /home/gianmarco/proyectos/Fast/express-flash-tutorial/src/views/profile.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/ejs/lib/ejs.js:274:16)
+    at exports.renderFile [as engine] (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/gianmarco/proyectos/Fast/express-flash-tutorial/node_modules/express/lib/response.js:1039:7)
+
+
+*/
